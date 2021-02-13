@@ -52,7 +52,7 @@ export const Navbar = () => {
                         exact
                         to="/login"
                     >
-                        Logout
+                        Cerrar sesión
                     </NavLink>
                 </ul>
             </div>

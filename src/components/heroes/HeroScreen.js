@@ -44,8 +44,8 @@ export const HeroScreen = ({ history }) => {
                 <h3> { superhero } </h3>
                 <ul className="list-group list-group-flush">
                     <li className="list-group-item"> <b> Alter ego: </b> { alter_ego } </li>
-                    <li className="list-group-item"> <b> Publisher: </b> { publisher } </li>
-                    <li className="list-group-item"> <b> First appearance: </b> { first_appearance } </li>
+                    <li className="list-group-item"> <b> Publicado Por: </b> { publisher } </li>
+                    <li className="list-group-item"> <b> Primera aparición: </b> { first_appearance } </li>
                 </ul>
 
                 <h5> Characters </h5>
@@ -55,7 +55,7 @@ export const HeroScreen = ({ history }) => {
                     className="btn btn-outline-info"
                     onClick={ handleReturn }
                 >
-                    Return
+                    Regresar
                 </button>
 
             </div>
